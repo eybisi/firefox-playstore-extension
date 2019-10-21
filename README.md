@@ -1,2 +1,8 @@
 # firefox-playstore-extention
-Open play store page with selected text as a package name
+
+Select the text. Right click. Click on `open in play store`
+
+#Basic usage :
+
+![rc.gif](rc.gif)
+
