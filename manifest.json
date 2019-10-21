@@ -3,7 +3,7 @@
     "name": "Open selected text in play store",
     "description": "Add a context menu option to open selected text in play store",
     "version": "1.0",
-    "homepage_url": "https://github.com/eybisi/firefox-playstore-extention",
+    "homepage_url": "https://github.com/eybisi/firefox-playstore-extension",
     "background": {
         "scripts": [
             "open.js"
