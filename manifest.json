@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Open in Playstore",
     "description": "Add a context menu option to open selected text in play store",
-    "version": "1.0",
+    "version": "1.1",
     "homepage_url": "https://github.com/eybisi/firefox-playstore-extension",
     "background": {
         "scripts": [
