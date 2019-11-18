@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Open selected text in play store",
+    "name": "Open in Playstore",
     "description": "Add a context menu option to open selected text in play store",
     "version": "1.0",
     "homepage_url": "https://github.com/eybisi/firefox-playstore-extension",
@@ -12,6 +12,16 @@
 
     "permissions": [
         "activeTab",
-        "contextMenus"
-    ]
+        "contextMenus",
+	"clipboardRead"
+    ],
+    "commands": {
+	"open-playstore": {
+    	"suggested_key": {
+      	"default": "Ctrl+Shift+U",
+      	"linux": "Ctrl+Shift+U"
+    	},
+     	"description": "Open playstore+clipboard in new tab"
+   	}
+    }
 }
